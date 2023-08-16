@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Game</title>
+  </head>
+  <style>
+    .logo {
+      width: 40px;
+      height: 40px;
+      background-image: url("g.png");
+      background-size: cover;
+      border-radius: 50%;
+    }
+    .logo:hover {
+      background-color: green;
+    }
+
+    .l {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20;
+      padding: 10px 20px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1><span id="merah">Selamat</span> <span id="putih">Bermain</span></h1>
+      <button id="gotoPage2">Start</button>
+      <div class="l">
+        <a class="logo" href="https://github.com/Sanjaee" target="_blank"></a>
+        <a class="logo" href="https://github.com/Skyzoosky" target="_blank"></a>
+      </div>
+    </div>
+    <script>
+      const gotoPage2Button = document.getElementById("gotoPage2");
+
+      gotoPage2Button.addEventListener("click", () => {
+        window.location.href = "ha.html";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(bg.jpg);
+    background-size: cover; /* Menyesuaikan latar belakang agar tidak pecah */
+    font-family: Arial, sans-serif;
+}
+
+span {
+    color: red;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Tambahkan align-items untuk pusatkan vertikal */
+    text-align: center;
+    height: 100px; /* Atur ketinggian judul */
+    font-size: 30px;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
